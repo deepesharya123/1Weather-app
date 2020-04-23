@@ -1,4 +1,3 @@
-console.log('Client side javascript file is loaded!')
 // const fetch = require('node-fetch');
 
 fetch('http://puzzle.mead.io/puzzle').then((response)=>{
