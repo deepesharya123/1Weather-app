@@ -45,7 +45,7 @@ fetch('/weather?address='+location).then((response)=>{
         lat  = data.data.latitude
         lon = data.data.longitude
         loc = data.data.location
-
+                        
         messageOne.textContent = "It is currently "+temp+" degree temperature at latitude "+lat+" and longitude "+lon+" at the place you entered i.e "+loc
 
 }
