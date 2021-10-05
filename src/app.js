@@ -78,11 +78,8 @@ app.get('/weather', (req, res) => {
     //                      adrs
     //                  })
     //             })
-        
 
     // })
-
-
 
 })
 
