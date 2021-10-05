@@ -23,7 +23,7 @@ const forecasturl = 'http://api.weatherstack.com/current?access_key=81ed36a8e0dd
 
 //   'https://api.mapbox.com/geocoding/v5/mapbox.places/'+latitude+","+longitude+'.json?access_token=pk.eyJ1IjoiZGVlcGVzaGFyeWExIiwiYSI6ImNrOHB2YnBodjBrZngzbW5sdGtyeGg1N3UifQ.nnblJbzxWvRuEznJSufBKg&limit=1'
 
-    request({url:forecasturl, json:true}, (error,response)=>{
+    request({ url:forecasturl , json:true }, ( error , response )=>{
         if(error){
              callback("Check your internet connnection",undefined)
         }
