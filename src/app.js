@@ -23,7 +23,7 @@ app.use(express.static(publicDirectoryPath))            //this path contain all 
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Weather',
-        name: 'Deepesh Arya'
+        name: 'John Doe'
     })
 })
 
